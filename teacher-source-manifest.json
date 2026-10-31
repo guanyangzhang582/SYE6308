@@ -1,0 +1,57 @@
+{
+  "verified_on": "2026-10-31",
+  "source_url": "https://www.kaggle.com/code/ikunjun/sye6308-sf2-classroom-2026",
+  "kaggle_version": 1,
+  "kernel_version_id": 355509824,
+  "original_download_sha256": "26c2b52cb7a4bf00cb19ad1c7f0169253e33a0d6fab42af66f80578248dd74a6",
+  "clean_notebook_cell_source_unchanged": true,
+  "demo_changed_original_cell_indices": [
+    6,
+    20,
+    22,
+    24,
+    26,
+    30
+  ],
+  "index_base": 0,
+  "public_core_file_count": 22,
+  "public_core_sha256": {
+    "input_contract_smoke.py": "ef5ed3f70a38b04635bbccf6a0a797a78f71cb497c5335ee760edde676963c96",
+    "lab_notebook.py": "f4f8247ef3fb7da42288c2c812663fb06d751fa045c039bf9cfb92b955ca530e",
+    "lab_review.py": "50f99416349385e47e887dad15e70691427de27e88b7f3e089645e8d8f01256e",
+    "run_lab.py": "a7b8ce0e859f75d2ad33630a64d2e1e3d6b1a4be260267eeda31dc5f57d75aeb",
+    "setup_sf2.py": "72ea28d9f4a0748be3daa07061cd58b6f00e1d8cbc299d9e03fc8efc5b0fb017",
+    "sf2_actions.py": "0d2fec98a6f9d279ec5f184dd26868bf0ce205cd35de647e7c5fabb46e03b01c",
+    "sf2_arena.py": "a96708c9455821046f26eefad2cb66b18846325af081e3c31306cb936976b4e8",
+    "sf2_arena_actor.py": "542364074b3763000bb053051381d87e08ac794f86ecd71207e379eb5431a1a6",
+    "sf2_arena_notebook.py": "6068a8834f4dfe6bdb3e5230639d8dd8c1cff372349f6da78f9afac30e82b4ad",
+    "sf2_arena_rpc.py": "30cf27badc7df190e7d5931a576dc35315b8ae91d848e82d0c8add28c083f312",
+    "sf2_boot.py": "b86da0f2533e25531fd8e0d2b66cba8162c089608da22c4c7f1337dddb3fa10d",
+    "sf2_bundle.py": "dc09e9589622b1049798e2d0fa0b0cc45f1460931cc7c23207a46325a0acf792",
+    "sf2_common.py": "42a7bca2426593b93c11c43196cd27298c44918bebc9d7c62650587e4504eaeb",
+    "sf2_env.py": "bdf0f8406c849a1f57af190e655f40ecbf1157e6d93ba6a57a5d5f103cb68389",
+    "sf2_game.py": "b592783a52e6b3090c09c51e0c4d19784eb87bb39f7f71c136bf0309747fe9fd",
+    "sf2_menu.py": "22591733041e8ff0d078cec9ced112c388f5282cf747ba02e81677d76b125a39",
+    "sf2_observation.py": "1ef611faa5f45eba37775a78860ea83eeddf727c71aec49a0b0a2f3795abd146",
+    "sf2_pvp_eval.py": "014e511008532658a16c118107508b76a448a32e4bcd475a5ba612abb5f21549",
+    "sf2_release.py": "21b61b3e40ba2340a0953cd3eca685c7a4dffd72ade7aacd59fc195b70750f45",
+    "sf2_start_cache.py": "2ae79b0cacb2e1c2bbf638a02ff6ffd25730394b071bc5d15d190563858b38b6",
+    "sf2_submission.py": "4135a959536ed30d8c85f31a569d68f30e680d4f43309b094867e38aa273afe5",
+    "sf2_video.py": "6727a6fbcb35539aabae51bfe7aa1e5a9d6fecd940f4f29db8aa7cf1d2e763b1"
+  },
+  "student_source_cells_unchanged": [
+    8,
+    10,
+    12,
+    14,
+    38,
+    40,
+    42,
+    44
+  ],
+  "saved_outputs_removed": true,
+  "files": {
+    "teacher_classroom_2026.ipynb": "72187692e39576824cae7100283cd7a87a7e9e5b8e3712f17d7512ac2f0ef715",
+    "demo_teacher_classroom_2026.ipynb": "d23bdc811a4ce03253fb2bcebbf7b0586c26c7e75ba830c1e2835b75c77fe069"
+  }
+}
