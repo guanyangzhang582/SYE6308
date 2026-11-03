@@ -1,0 +1,18 @@
+{
+  "schema": "sye6308-practice-rules-v1",
+  "rules_id": "sye6308-practice-v1",
+  "status": "DRAFT_FOR_TA_ACCEPTANCE_NOT_OFFICIAL_COURSE_RULES",
+  "common": {"ruleset": "hyper", "speed_stars": 2, "decision_frames": 6, "position_scale": 1024.0, "max_round_frames": 7200},
+  "game": "StreetFighterIISpecialChampionEdition-Genesis",
+  "rom_sha1": "a5aad1d108046d9388e33247610dafb4c6516e0b",
+  "allowed_characters": ["Ryu", "EHonda", "Blanka", "Guile", "Ken", "ChunLi", "Zangief", "Dhalsim", "MBison", "Sagat", "Balrog", "Vega"],
+  "inference": {"device": "cpu", "torch_threads": 1, "deterministic": true, "load_timeout_seconds": 120, "decision_timeout_seconds": 2.0},
+  "selfcheck_offsets": [0, 12],
+  "selfcheck_ports": [1, 2],
+  "technical_error_handling": "Abort and retain diagnostics. A timeout/error is not a scored defeat in this practice build.",
+  "clock": "Both policies observe the same pre-decision state. Game advances only after both return. Action frame plans are exactly six native frames.",
+  "decision_timeout_note": "2 seconds is a generous engineering watchdog, NOT the previous course one-frame deadline or an approved competition latency limit.",
+  "score": "Report KO/native-timeout wins/losses/draws. A safety frame cap is a separate cutoff. Never use a student's reward as the match score.",
+  "security": "Separate processes and checksums are NOT a sandbox. Review custom Python/models. Formal untrusted competition needs OS/container/VM isolation, no network and no secrets.",
+  "course_approval": "The supplied old guide restricts Ryu and states a one-frame decision deadline and .pth/act(state) submission. Flexible characters, this six-frame protocol and the new ZIP format require instructor approval."
+}

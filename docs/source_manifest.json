@@ -1,0 +1,398 @@
+{
+  "source_url": "https://www.kaggle.com/code/ikunjun/sye6308-sf2-classroom-2026",
+  "api_url": "https://www.kaggle.com/api/v1/kernels/pull/ikunjun/sye6308-sf2-classroom-2026",
+  "local_preparation_date": "2026-11-02",
+  "source_version_number": 1,
+  "source_last_run_utc": "2026-10-29T18:30:59.2728Z",
+  "original_sha256": "d045ed7f932183684f92f4789dd38485cc320905d6998ffbbb192aa60def14a8",
+  "source_metadata": {
+    "languageNullable": "python",
+    "kernelTypeNullable": "notebook",
+    "isPrivateNullable": false,
+    "enableGpuNullable": false,
+    "enableTpuNullable": false,
+    "enableInternetNullable": true,
+    "currentVersionNumberNullable": 1,
+    "dockerImageNullable": "gcr.io/kaggle-images/python@sha256:81b1e7c4b4f0f2a7e0a33943c95754b1b7af6b30d65221633a284b6b601cd84a",
+    "machineShapeNullable": "None",
+    "id": 137201361,
+    "ref": "ikunjun/sye6308-sf2-classroom-2026",
+    "title": "SYE6308_SF2_Classroom_2026",
+    "author": "IKUNjun",
+    "slug": "sye6308-sf2-classroom-2026",
+    "lastRunTime": "2026-10-29T18:30:59.2728Z",
+    "language": "python",
+    "hasLanguage": true,
+    "kernelType": "notebook",
+    "hasKernelType": true,
+    "isPrivate": false,
+    "hasIsPrivate": true,
+    "enableGpu": false,
+    "hasEnableGpu": true,
+    "enableTpu": false,
+    "hasEnableTpu": true,
+    "enableInternet": true,
+    "hasEnableInternet": true,
+    "categoryIds": [],
+    "datasetDataSources": [],
+    "kernelDataSources": [],
+    "competitionDataSources": [],
+    "modelDataSources": [],
+    "totalVotes": 18,
+    "currentVersionNumber": 1,
+    "hasCurrentVersionNumber": true,
+    "dockerImage": "gcr.io/kaggle-images/python@sha256:81b1e7c4b4f0f2a7e0a33943c95754b1b7af6b30d65221633a284b6b601cd84a",
+    "hasDockerImage": true,
+    "machineShape": "None",
+    "hasMachineShape": true
+  },
+  "notebook_metadata": {
+    "kernelspec": {
+      "display_name": "Python 3",
+      "language": "python",
+      "name": "python3"
+    },
+    "language_info": {
+      "name": "python",
+      "version": "3.13.15",
+      "mimetype": "text/x-python",
+      "codemirror_mode": {
+        "name": "ipython",
+        "version": 3
+      },
+      "pygments_lexer": "ipython3",
+      "nbconvert_exporter": "python",
+      "file_extension": ".py"
+    },
+    "sf2_release": "classroom-rc3-submission-v1",
+    "title": "SYE6308 SF2 Classroom RC3 — Student Guide R2",
+    "sf2_student_guide": {
+      "revision": "r1",
+      "base_sha256": "49c24dce6b25cb6aa8c85c92c87b31dca9957a1408041f2f78396b8b44f4ebd6",
+      "code_scope": "One optional packaging callback and notebook UI selection; student sources and training algorithm unchanged",
+      "online_kaggle_version_verified": false
+    },
+    "sf2_student_guide_revision": "R2-runtime-installer-and-character-comments",
+    "sf2_runtime_fix": "R3: resolve legacy and -v0 backend game IDs; same ROM SHA1"
+  },
+  "markdown_cells": [
+    {
+      "cell_index": 0,
+      "heading": "# Street Fighter II — Student Guide",
+      "sha256": "2106ec38e17a6f9bfb93cf3a2fde6514d6976b16d528a74032606c5537e3379d"
+    },
+    {
+      "cell_index": 1,
+      "heading": "## 1. Shared setup — required for every route",
+      "sha256": "39919302ff7623e61ff4b1c54b65b55fdbf0abc5581523df44f09d5892b991f3"
+    },
+    {
+      "cell_index": 5,
+      "heading": "## 2. PvE settings — agent versus the built-in CPU",
+      "sha256": "f4bc454d26c592b1bb666b5aa8f7d98d45aa15264d2347b365f5b5525e8e6741"
+    },
+    {
+      "cell_index": 7,
+      "heading": "## 3. PvE student files — run all four code cells",
+      "sha256": "37de93a21cda3f6b7a987ea0d29794ebe2da27c74e10a35d06a9cf37736c438a"
+    },
+    {
+      "cell_index": 9,
+      "heading": "### 3.2 Actions — what one action ID means",
+      "sha256": "13744ddd0fc6d923000464d6df494e6b2471d79ce667492c95d1659bd75b3b52"
+    },
+    {
+      "cell_index": 11,
+      "heading": "### 3.3 Reward — feedback for training",
+      "sha256": "e034d16ae1fd22fc025e0dc80977253d6d9e350a8b916ef8af912b60526d03a3"
+    },
+    {
+      "cell_index": 13,
+      "heading": "### 3.4 Model — how observations become decisions",
+      "sha256": "bb3b57124bfc2abf5ad747758de3b7afd5b53f75e01245c95243d7109e6d61ec"
+    },
+    {
+      "cell_index": 15,
+      "heading": "## 4. PvE environment check — required before training",
+      "sha256": "34a5ab33f2aaeeb45d08a167bc2af6e756ac672445bcffb780f97ddc252b2bd6"
+    },
+    {
+      "cell_index": 17,
+      "heading": "### 4.1 Optional button test — no model learning",
+      "sha256": "73ddffeb2807b37182ef6da5ed89a15cacd375a93dde56da09b6d6c8701a96b8"
+    },
+    {
+      "cell_index": 19,
+      "heading": "## 5. PvE training — this cell updates the learner",
+      "sha256": "0dfdbbf127913e12355b36562e39389535b7fe468078ecfdfd6ac0eb5b073d99"
+    },
+    {
+      "cell_index": 21,
+      "heading": "### 5.1 Review PvE results — no learning",
+      "sha256": "281f5b20f5969c2a17d6cc9575c11a7c973dd0bf67e30aee18051f70b083890c"
+    },
+    {
+      "cell_index": 23,
+      "heading": "## 6. Evaluate an agent against the CPU — no learning",
+      "sha256": "c2c7df76be4f7e4efdbc15a4448ac723e39f09136112acdde575563bc9cc8e51"
+    },
+    {
+      "cell_index": 25,
+      "heading": "## 7. Package ONE selected agent for the practice arena",
+      "sha256": "ebabc72503d611a71b0d4aaef92a117742175242522bf0aa322a94fe7c2f6e1f"
+    },
+    {
+      "cell_index": 27,
+      "heading": "### 7.1 Optional model picker — an alternative to Section 7",
+      "sha256": "c590090e4444080d1ac0e8448c3e2990de0b6c50e0546910a5bfe41ccbff20d5"
+    },
+    {
+      "cell_index": 29,
+      "heading": "### 7.2 Self-check the packaged ZIP — no learning",
+      "sha256": "718128c8cb6c87a2ef1bf262796306aed04e8709de054edf805b5c3064598fa2"
+    },
+    {
+      "cell_index": 31,
+      "heading": "### 7.3 Optional backup — keep your experiment, not just one entry",
+      "sha256": "7f91d3c0c3a6d95ca5a735c17c63520273c928d19daf1b755821db243e61676f"
+    },
+    {
+      "cell_index": 33,
+      "heading": "## 8. Match two saved agents — NO training",
+      "sha256": "4d5c78bec5c2ae32c971dc0aa3e5953b06fc32c66dcd65b7f0e19433cefb2d02"
+    },
+    {
+      "cell_index": 35,
+      "heading": "## 9. Optional PvP training — one learner, one fixed opponent",
+      "sha256": "03a5637609adc20cd36d991bbd621af7611d7af7b3e2c8345b9ea197c8d044b6"
+    },
+    {
+      "cell_index": 37,
+      "heading": "### 9.2 PvP student files — run all four cells",
+      "sha256": "ca48f1a712d3deaefa249149af31a4d4269c874f519c27999c835ca3a06f0261"
+    },
+    {
+      "cell_index": 39,
+      "heading": "#### 9.2b Actions — independent PvP action table",
+      "sha256": "77fd8d6739ed1e1ef73100d71d733e53778fb9d07a260d6a7b9673b9e824f5ad"
+    },
+    {
+      "cell_index": 41,
+      "heading": "#### 9.2c Reward — measured from the learner's perspective",
+      "sha256": "70b18d41b71dd3a4e7e31c847da96a5f5d65074a305293cfe9cd2c130356a701"
+    },
+    {
+      "cell_index": 43,
+      "heading": "#### 9.2d Model — independent PvP learner",
+      "sha256": "edc2a06b2533ea4dcd0d47b1eb713444501390e74788d31f3b86701a89ee12b0"
+    },
+    {
+      "cell_index": 45,
+      "heading": "### 9.3 PvP environment check — required before PvP training",
+      "sha256": "afd6e2f7e3751add0128a9f7e6a80214b1dd959da337d58ed161e7ef7783623f"
+    },
+    {
+      "cell_index": 47,
+      "heading": "### 9.4 PvP training — only the learner changes",
+      "sha256": "cd9d4c0c5273655af01cc8bf3bf4f0833c71d55ef41c952c480b6258d1c684eb"
+    },
+    {
+      "cell_index": 49,
+      "heading": "### 9.5 Evaluate and review PvP training — no learning",
+      "sha256": "7255845063fe2bebf8b5ed273dd151d33b6b6de861487feabdb7c2361ce2a9ab"
+    },
+    {
+      "cell_index": 52,
+      "heading": "## 10. Troubleshooting and instructor checks",
+      "sha256": "f739a9349158f5bcc1b651784c54e6d65293e55d5ca1abb3b1be36556662ae2e"
+    }
+  ],
+  "extracted_files": [
+    {
+      "path": "src/framework/input_contract_smoke.py",
+      "cell_index": 3,
+      "transform": "AST literal CORE_FILES value",
+      "sha256": "ef5ed3f70a38b04635bbccf6a0a797a78f71cb497c5335ee760edde676963c96"
+    },
+    {
+      "path": "src/framework/lab_notebook.py",
+      "cell_index": 3,
+      "transform": "AST literal CORE_FILES value",
+      "sha256": "f4f8247ef3fb7da42288c2c812663fb06d751fa045c039bf9cfb92b955ca530e"
+    },
+    {
+      "path": "src/framework/lab_review.py",
+      "cell_index": 3,
+      "transform": "AST literal CORE_FILES value",
+      "sha256": "50f99416349385e47e887dad15e70691427de27e88b7f3e089645e8d8f01256e"
+    },
+    {
+      "path": "src/framework/run_lab.py",
+      "cell_index": 3,
+      "transform": "AST literal CORE_FILES value",
+      "sha256": "a7b8ce0e859f75d2ad33630a64d2e1e3d6b1a4be260267eeda31dc5f57d75aeb"
+    },
+    {
+      "path": "src/framework/setup_sf2.py",
+      "cell_index": 3,
+      "transform": "AST literal CORE_FILES value",
+      "sha256": "72ea28d9f4a0748be3daa07061cd58b6f00e1d8cbc299d9e03fc8efc5b0fb017"
+    },
+    {
+      "path": "src/framework/sf2_actions.py",
+      "cell_index": 3,
+      "transform": "AST literal CORE_FILES value",
+      "sha256": "0d2fec98a6f9d279ec5f184dd26868bf0ce205cd35de647e7c5fabb46e03b01c"
+    },
+    {
+      "path": "src/framework/sf2_arena.py",
+      "cell_index": 3,
+      "transform": "AST literal CORE_FILES value",
+      "sha256": "a96708c9455821046f26eefad2cb66b18846325af081e3c31306cb936976b4e8"
+    },
+    {
+      "path": "src/framework/sf2_arena_actor.py",
+      "cell_index": 3,
+      "transform": "AST literal CORE_FILES value",
+      "sha256": "542364074b3763000bb053051381d87e08ac794f86ecd71207e379eb5431a1a6"
+    },
+    {
+      "path": "src/framework/sf2_arena_notebook.py",
+      "cell_index": 3,
+      "transform": "AST literal CORE_FILES value",
+      "sha256": "6068a8834f4dfe6bdb3e5230639d8dd8c1cff372349f6da78f9afac30e82b4ad"
+    },
+    {
+      "path": "src/framework/sf2_arena_rpc.py",
+      "cell_index": 3,
+      "transform": "AST literal CORE_FILES value",
+      "sha256": "30cf27badc7df190e7d5931a576dc35315b8ae91d848e82d0c8add28c083f312"
+    },
+    {
+      "path": "src/framework/sf2_boot.py",
+      "cell_index": 3,
+      "transform": "AST literal CORE_FILES value",
+      "sha256": "b86da0f2533e25531fd8e0d2b66cba8162c089608da22c4c7f1337dddb3fa10d"
+    },
+    {
+      "path": "src/framework/sf2_bundle.py",
+      "cell_index": 3,
+      "transform": "AST literal CORE_FILES value",
+      "sha256": "dc09e9589622b1049798e2d0fa0b0cc45f1460931cc7c23207a46325a0acf792"
+    },
+    {
+      "path": "src/framework/sf2_common.py",
+      "cell_index": 3,
+      "transform": "AST literal CORE_FILES value",
+      "sha256": "42a7bca2426593b93c11c43196cd27298c44918bebc9d7c62650587e4504eaeb"
+    },
+    {
+      "path": "src/framework/sf2_env.py",
+      "cell_index": 3,
+      "transform": "AST literal CORE_FILES value",
+      "sha256": "bdf0f8406c849a1f57af190e655f40ecbf1157e6d93ba6a57a5d5f103cb68389"
+    },
+    {
+      "path": "src/framework/sf2_game.py",
+      "cell_index": 3,
+      "transform": "AST literal CORE_FILES value",
+      "sha256": "b592783a52e6b3090c09c51e0c4d19784eb87bb39f7f71c136bf0309747fe9fd"
+    },
+    {
+      "path": "src/framework/sf2_menu.py",
+      "cell_index": 3,
+      "transform": "AST literal CORE_FILES value",
+      "sha256": "22591733041e8ff0d078cec9ced112c388f5282cf747ba02e81677d76b125a39"
+    },
+    {
+      "path": "src/framework/sf2_observation.py",
+      "cell_index": 3,
+      "transform": "AST literal CORE_FILES value",
+      "sha256": "1ef611faa5f45eba37775a78860ea83eeddf727c71aec49a0b0a2f3795abd146"
+    },
+    {
+      "path": "src/framework/sf2_pvp_eval.py",
+      "cell_index": 3,
+      "transform": "AST literal CORE_FILES value",
+      "sha256": "014e511008532658a16c118107508b76a448a32e4bcd475a5ba612abb5f21549"
+    },
+    {
+      "path": "src/framework/sf2_release.py",
+      "cell_index": 3,
+      "transform": "AST literal CORE_FILES value",
+      "sha256": "21b61b3e40ba2340a0953cd3eca685c7a4dffd72ade7aacd59fc195b70750f45"
+    },
+    {
+      "path": "src/framework/sf2_start_cache.py",
+      "cell_index": 3,
+      "transform": "AST literal CORE_FILES value",
+      "sha256": "2ae79b0cacb2e1c2bbf638a02ff6ffd25730394b071bc5d15d190563858b38b6"
+    },
+    {
+      "path": "src/framework/sf2_submission.py",
+      "cell_index": 3,
+      "transform": "AST literal CORE_FILES value",
+      "sha256": "4135a959536ed30d8c85f31a569d68f30e680d4f43309b094867e38aa273afe5"
+    },
+    {
+      "path": "src/framework/sf2_video.py",
+      "cell_index": 3,
+      "transform": "AST literal CORE_FILES value",
+      "sha256": "6727a6fbcb35539aabae51bfe7aa1e5a9d6fecd940f4f29db8aa7cf1d2e763b1"
+    },
+    {
+      "path": "docs/arena_rules_v1.json",
+      "cell_index": 3,
+      "transform": "AST literal ARENA_RULES_TEXT value",
+      "sha256": "2ba5605cfccbd881b549a6152b66d0e08588b7151b9b94f675e96d25d6fce0ce"
+    },
+    {
+      "path": "src/student/pve/student_observation.py",
+      "cell_index": 8,
+      "transform": "remove first %%writefile line only",
+      "sha256": "e699bb9da63771edf0a0bb3023e09ea2e668d8af747f5ae1fb8b3b3cc04b74f9"
+    },
+    {
+      "path": "src/student/pve/student_actions.py",
+      "cell_index": 10,
+      "transform": "remove first %%writefile line only",
+      "sha256": "960bbfe9086cdb6a063c9f921c096f77898d8e6d0593e22956bf742a80cee4b8"
+    },
+    {
+      "path": "src/student/pve/student_reward.py",
+      "cell_index": 12,
+      "transform": "remove first %%writefile line only",
+      "sha256": "677c390f12c8462046979b1a470182ea9ce7eacf07dc773ed3e6e5deb5cf24e2"
+    },
+    {
+      "path": "src/student/pve/student_model.py",
+      "cell_index": 14,
+      "transform": "remove first %%writefile line only",
+      "sha256": "bfe6d4f90efb5b63147201d42122e6787c6bd305354d040e8295bbf79748cdf5"
+    },
+    {
+      "path": "src/student/pvp/student_observation.py",
+      "cell_index": 38,
+      "transform": "remove first %%writefile line only",
+      "sha256": "e699bb9da63771edf0a0bb3023e09ea2e668d8af747f5ae1fb8b3b3cc04b74f9"
+    },
+    {
+      "path": "src/student/pvp/student_actions.py",
+      "cell_index": 40,
+      "transform": "remove first %%writefile line only",
+      "sha256": "960bbfe9086cdb6a063c9f921c096f77898d8e6d0593e22956bf742a80cee4b8"
+    },
+    {
+      "path": "src/student/pvp/student_reward.py",
+      "cell_index": 42,
+      "transform": "remove first %%writefile line only",
+      "sha256": "677c390f12c8462046979b1a470182ea9ce7eacf07dc773ed3e6e5deb5cf24e2"
+    },
+    {
+      "path": "src/student/pvp/student_model.py",
+      "cell_index": 44,
+      "transform": "remove first %%writefile line only",
+      "sha256": "bfe6d4f90efb5b63147201d42122e6787c6bd305354d040e8295bbf79748cdf5"
+    }
+  ]
+}

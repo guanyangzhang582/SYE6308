@@ -1,0 +1,35 @@
+# Local credentials / remote session URLs
+.env
+.env.*
+!.env.example
+kaggle.json
+.kaggle/
+*credentials*.json
+*token*.json
+
+# Python and notebooks
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Generated experiment output and game resources
+outputs/*
+!outputs/.gitkeep
+resources/
+*.rom
+*.bin
+*.gen
+*.smd
+*.state
+*.pth
+*.pt
+*.ckpt
+*.zip
+*.mp4
+*.avi
+*.npz
+
+# Large raw API dumps are not needed in this project
+*_response.json
